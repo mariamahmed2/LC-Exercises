@@ -10,8 +10,8 @@
     > #!/bin/sh
     > curl --head --silent https://www.google.com/
 
-4&5&6. When excuting the test file with `./test` it says Permission denied
-    with `ls -al` it shows that the test file has not excute permission, it has read and write only
+4&5&6. When executing the test file with `./test` it says Permission denied
+    with `ls -al` it shows that the test file has not execute permission, it has read and write only
 
 ### There are 2 solutions for this problem 
  - with `sh test`
@@ -26,7 +26,7 @@
    `cat > testpy`
       > #!/bin/python2
       > print "Hello World"
-  Then change permissiom in order to enable us excute the file with `./testpy`:
+  Then change permissiom in order to enable us execute the file with `./testpy`:
      `chmod +x testpy`
     
  9. `>` sign used to take the output of a program as an input to other program or coping with cat command
