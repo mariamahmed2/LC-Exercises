@@ -32,9 +32,10 @@
      For example:
         `cat testpy > cpd-testpy`
         Then `cat cpd-testpy` it shows:
+        
           > #!/bin/python2
-          >print "hello world"
+          > print "hello world"
          
-  `>>` sign used to append 
+    `>>` sign used to append 
   
   10. Using Alias to make shortcuts `alias ll='ls -alh'
