@@ -30,7 +30,7 @@
     
  9. `>` sign used to take the output of a program as an input to other program or coping with cat command
      For example:
-        `cat testpy > cpd-testpy`   ### For coping
+        `cat testpy > cpd-testpy`
         Then `cat cpd-testpy` it shows:
           > #!/bin/python2
           >print "hello world"
