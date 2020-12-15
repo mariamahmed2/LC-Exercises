@@ -6,6 +6,7 @@
 2. Creating file called test in LC dir `touch test`
 
 3. Adding sh script into test file `cat test` then `cat > test`
+
     > #!/bin/sh
     > curl --head --silent https://www.google.com/
 
@@ -38,4 +39,4 @@
          
     `>>` sign used to append 
   
-  10. Using Alias to make shortcuts `alias ll='ls -alh'
+  10. Using Alias to make shortcuts `alias ll='ls -alh'`
