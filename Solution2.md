@@ -1,6 +1,6 @@
 # Solution for exercice 2
 
-1. tmux
+1. tmux  
     It stands for terminal multiplexer that splits the terminal into `windows` and `panes`
     Commands in tmux consists of `prefix key` + `command key`
     ```
@@ -33,7 +33,7 @@
      ```
      - To detach the current session `c-b d` or `c-b D` to choose which one to be detached. 
      
-   2. fzf 
+   2. fzf   
      It a tool used for searching for files 
      
    3. When type
