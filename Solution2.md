@@ -33,10 +33,10 @@
      ```
      - To detach the current session `c-b d` or `c-b D` to choose which one to be detached. 
      
-   2. fzf   
+  2. fzf   
      It a tool used for searching for files 
      
-   3. When type
+  3. When type
     ```
      $ apt install vim
      ```
@@ -54,7 +54,7 @@
         ```
         $ cat ~/.bash_history | fzf
         ```
-    5. - Symbolic link: it's a file that points to another file like a shortcut in Windows, Symbolic links contain the path to the original file.
+   5. - Symbolic link: it's a file that points to another file like a shortcut in Windows, Symbolic links contain the path to the original file.
         To creat a symbolic link:
         ```
         $ln -s "file name" "symbolic link"
@@ -66,7 +66,7 @@
         
         After running `ls -l` we notice that `the symbolic link -> the original file` 
         
-    6. The command `diff` compares files line by line 
+   6. The command `diff` compares files line by line 
        That difference between the files is called a `patch` we use it to apply the differences.
 
         
