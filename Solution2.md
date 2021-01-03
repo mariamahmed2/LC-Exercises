@@ -12,9 +12,9 @@
     $tmux new -s session_name   
     ```
     To rename it:
-    
-    tmux rename-session -t <old name> <new>
-    
+    ```
+    $tmux rename-session -t <old name> <new>
+    ```
     The default prefix key is `ctrl+b`
      - `C-b %` to split panes into a left and a right pane.
      - `C-b "` to split a pane into top and bottom panes.
@@ -37,24 +37,25 @@
      It a tool used for searching for files 
      
   3. When type
-    ```
+ 
+     ```
      $ apt install vim
      ```
      it shows errors, and ask me if I am root?
      Installation needs root's permissions to be excuted, we can do it with `sudo`
-     ```
-     $ sudo apt install vim 
-     ```
-    - `!15` it installs snapd which is an installer for snaps [packages] or required to run snaps.
+      ```
+      $ sudo apt install vim 
+      ```
+      `!15` it installs snapd which is an installer for snaps [packages] or required to run snaps.
      
-   4. `history` is used to view the previous commands 
+  4. `history` is used to view the previous commands 
       `cat ~/.bash_history` also views the previous commads, 
         then pressing `ctrl+r` to look for any command you want.  
         You can also try `fzf` 
         ```
         $ cat ~/.bash_history | fzf
         ```
-   5. - Symbolic link: it's a file that points to another file like a shortcut in Windows, Symbolic links contain the path to the original file.
+  5. - Symbolic link: it's a file that points to another file like a shortcut in Windows, Symbolic links contain the path to the original file.
         To creat a symbolic link:
         ```
         $ln -s "file name" "symbolic link"
